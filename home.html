@@ -1,0 +1,36 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    
+    <style>
+        body {
+            background-image: url('images/background_familly.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <iframe class="header" src="header.html" frameborder="0"></iframe>
+            <div>
+                <h1>Home</h1>
+            </div>
+        
+
+    </div>
+    
+<!-- Agrega la CDN de Bootstrap JS (jQuery y Popper.js son requeridos) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
